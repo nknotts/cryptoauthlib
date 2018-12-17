@@ -81,7 +81,7 @@ elseif(UNIX)
 if(HAS_LIBUSB)
 target_link_libraries(cryptoauth usb-1.0)
 endif()
-target_link_libraries(cryptoauth udev rt)
+target_link_libraries(cryptoauth rt)
 endif()
 
 
